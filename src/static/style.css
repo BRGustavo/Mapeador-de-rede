@@ -1,0 +1,9 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-repeat: initial;
+}
+
+.boxshadow {
+    background-color: rgba(255, 255, 255, 0.911);
+}
