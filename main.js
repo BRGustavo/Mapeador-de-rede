@@ -20,7 +20,6 @@ async function createWindow(){
     await mainWindow.loadFile('src/pages/index.html');
 }
 
-// ON Ready
 app.whenReady().then(createWindow);
 
 
@@ -42,7 +41,6 @@ ipcMain.on("eventoButton", function(event, args) {
     ]
 
     const caminhosPisa = [
-        // verificar.
         `@echo off`,
         `ipconfig /flushdns`,
         `net use n: /del`,
